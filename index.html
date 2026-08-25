@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shop Gen Z Fashion | FashionBrand</title>
+    <meta name="description"
+        content="FashionBrand offers trendy football jerseys, stylish jeans, and oversized T-shirts for the new generation.">
+
+    <!-- Professional Additions: Open Graph for Social Media Sharing -->
+    <meta property="og:title" content="FashionBrand | Gen Z Streetwear">
+    <meta property="og:description"
+        content="Discover modern streetwear, football jerseys, and oversized fits made for your style.">
+    <meta property="og:image" content="https://placehold.co/1200x630"> <!-- Replace with a real banner image -->
+    <meta property="og:type" content="website">
+
+    <!-- Preload critical assets for performance -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Professional Additions: Favicon placeholders -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- SEO Schema Markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ClothingStore",
+      "name": "FashionBrand",
+      "description": "Gen Z Streetwear, football jerseys, and oversized T-shirts.",
+      "url": "https://www.yourdomain.com",
+      "telephone": "+9188"
+    }
+    </script>
+</head>
+
+<body>
+
+    <!-- ================= HEADER / NAVBAR ================= -->
+    <header class="header" role="banner">
+        <a href="index.html" class="logo" aria-label="FashionBrand Home">
+            FASHIONBRAND
+        </a>
+
+        <nav class="navbar" id="navbar" aria-label="Main Navigation">
+            <a href="index.html" aria-current="page">Home</a> <!-- Active Here -->
+            <a href="products.html">Shop</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+
+        <button class="menu-toggle" aria-label="Open navigation menu">
+            ☰
+        </button>
+
+        <a href="products.html" class="nav-btn">Shop Now</a>
+    </header>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main>
+
+        <!-- ================= HERO SECTION ================= -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <p class="hero-tag">NEW GENERATION OF STYLE</p>
+                <h1 id="hero-title">
+                    WEAR DIFFERENT.<br>
+                    <span>STAND OUT.</span>
+                </h1>
+                <p class="hero-description">
+                    Discover football jerseys, trending jeans,
+                    and oversized T-shirts made for your style.
+                </p>
+                <div class="hero-buttons">
+                    <a href="products.html" class="btn btn-primary">Explore Collection</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <!-- fetchpriority="high" tells browsers to load this first -->
+                <img src="images/RealMadrid-Jersey.jpg" alt="Models wearing FashionBrand streetwear collection"
+                    fetchpriority="high">
+            </div>
+        </section>
+
+        <!-- ================= SHOP BY CATEGORY ================= -->
+        <section class="categories" aria-labelledby="category-title">
+            <div class="section-heading">
+                <p class="section-tag">FIND YOUR STYLE</p>
+                <h2 id="category-title">SHOP BY CATEGORY</h2>
+            </div>
+
+            <div class="category-container">
+                <!-- FOOTBALL JERSEYS -->
+                <a href="products.html#jerseys" class="category-card">
+                    <!-- loading="lazy" added to all below-the-fold images for speed -->
+                    <img src="images/Jersey-collection.jpg" alt="Man wearing a retro football jersey" loading="lazy">
+                    <div class="category-overlay">
+                        <h3>Football Jerseys</h3>
+                        <span aria-hidden="true">Explore Collection &rarr;</span>
+                    </div>
+                </a>
+
+                <!-- JEANS -->
+                <a href="products.html#jeans" class="category-card">
+                    <img src="images/Jeans-collection.jpg" alt="Person wearing baggy trending jeans" loading="lazy">
+                    <div class="category-overlay">
+                        <h3>Trending Jeans</h3>
+                        <span aria-hidden="true">Explore Collection &rarr;</span>
+                    </div>
+                </a>
+
+                <!-- OVERSIZED T-SHIRTS -->
+                <a href="products.html#tshirts" class="category-card">
+                    <img src="images/Tee-collection.jpg" alt="Model wearing a graphic oversized t-shirt"
+                        loading="lazy">
+                    <div class="category-overlay">
+                        <h3>Oversized T-Shirts</h3>
+                        <span aria-hidden="true">Explore Collection &rarr;</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- ================= WHY CHOOSE US ================= -->
+        <section class="why-us" aria-labelledby="features-title">
+            <div class="section-heading">
+                <p class="section-tag">WHY FASHIONBRAND</p>
+                <h2 id="features-title">MADE FOR YOUR STYLE</h2>
+            </div>
+
+            <div class="features-container">
+                <div class="feature-card">
+                    <span class="feature-number" aria-hidden="true">01</span>
+                    <h3>Latest Trends</h3>
+                    <p>Stay updated with modern fashion and trending styles.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-number" aria-hidden="true">02</span>
+                    <h3>Gen Z Fashion</h3>
+                    <p>Streetwear, oversized fits and styles made for the new generation.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-number" aria-hidden="true">03</span>
+                    <h3>Affordable Style</h3>
+                    <p>Find fashionable clothing at prices that fit your budget.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-number" aria-hidden="true">04</span>
+                    <h3>Easy Enquiry</h3>
+                    <p>Contact us directly and ask about products through WhatsApp.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= ABOUT SECTION ================= -->
+        <section class="about" id="about" aria-labelledby="about-title">
+            <div class="about-image">
+                <img src="images/Trandy-Jeans.jpg" alt="Group of friends wearing FashionBrand clothing"
+                    loading="lazy">
+            </div>
+
+            <div class="about-content">
+                <p class="section-tag">ABOUT US</p>
+                <h2 id="about-title">
+                    FASHION FOR THE<br>
+                    <span>NEW GENERATION.</span>
+                </h2>
+                <p>
+                    FashionBrand brings together modern, comfortable and trending styles for people who want to express
+                    themselves through fashion.
+                </p>
+                <p>
+                    From football jerseys and stylish jeans to oversized T-shirts, discover clothing that matches your
+                    personality.
+                </p>
+                <a href="products.html" class="btn btn-primary">View Our Collection</a>
+            </div>
+        </section>
+
+        <!-- ================= CONTACT SECTION ================= -->
+        <section class="contact" id="contact" aria-labelledby="contact-title">
+            <div class="contact-content">
+                <p class="section-tag">GET IN TOUCH</p>
+                <h2 id="contact-title">
+                    FIND YOUR NEXT<br>
+                    <span>FAVORITE OUTFIT.</span>
+                </h2>
+                <p>Have a question about a product? Contact FashionBrand directly.</p>
+
+                <div class="contact-buttons">
+                    <!-- Updated with actual WhatsApp API link format and security attributes -->
+                    <a href="https://wa.me/918812942665?text=Hi!%20I%20want%20to%20know%20more%20about%20FashionBrand."
+                        class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        WhatsApp Us
+                    </a>
+                    <a href="tel:+918812942665" class="btn btn-secondary">
+                        Call Us
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a href="index.html" class="logo" aria-label="FashionBrand Home">FASHIONBRAND</a>
+                <p>Gen Z fashion. Streetwear. Your style.</p>
+            </div>
+
+            <nav class="footer-links" aria-label="Footer Navigation">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="products.html">Shop</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <nav class="footer-links" aria-label="Footer Collections">
+                <h3>Collections</h3>
+                <a href="products.html#jerseys">Football Jerseys</a>
+                <a href="products.html#jeans">Trending Jeans</a>
+                <a href="products.html#tshirts">Oversized T-Shirts</a>
+            </nav>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 FashionBrand. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ================= FLOATING WHATSAPP BUTTON ================= -->
+    <!-- Replace 910000000000 with your client's actual WhatsApp number -->
+    <a href="https://wa.me/918812942665?text=Hi!%20I%20want%20to%20know%20more%20about%20FashionBrand."
+        class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+        <!-- SVG for the WhatsApp Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path
+                d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157.1zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+        </svg>
+    </a>
+
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
